@@ -36,4 +36,27 @@ flask db upgrade
 ```
 
 
+## Run application
+
+You can use IDE configuration or just terminal, `Script Path = app.py` or just 
+```commandline
+pyhton app.py
+```
+
+Using POSTMAN you can enter some files to db (POST endpoint)
+![img.png](readme_png/img.png)
+
+If you enter http://127.0.0.1:8000/files?id={YOUR_ID} in your browser
+
+![img.png](readme_png/img2.png)
+
+you will get a file from db
+
+![img.png](readme_png/img3.png)
+
+and also you can trig head method to know information about the file.
+
+
+
+
 
